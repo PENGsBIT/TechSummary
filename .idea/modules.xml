@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaSummary/JavaSummary.iml" filepath="$PROJECT_DIR$/JavaSummary/JavaSummary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PythonSummary/PythonSummary.iml" filepath="$PROJECT_DIR$/PythonSummary/PythonSummary.iml" />
       <module fileurl="file://$PROJECT_DIR$/TechSummary.iml" filepath="$PROJECT_DIR$/TechSummary.iml" />
     </modules>
   </component>
