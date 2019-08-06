@@ -18,6 +18,18 @@ list.add("A");
 map.computeIfAbsent("list1", k -> new ArrayList<>()).add("A");
 ```
 其中变量 k 是 Map 的 key。Map定义的时候注意使用<anything,List<>>(List)定义不然无法使用lamada的k
+
+## computeIfPresent
+如果指定的key存在，则根据旧的key和value计算新的值newValue, 如果newValue不为null，则设置key新的值为newValue, 如果newValue为null, 则删除该key的值
+```java
+map.computeIfPresent(1, (key, value) -> (key + 1) + value);
+// 存在key为1， 则根据旧的key和value计算新的值，输出 2a
+System.out.println(map.get(1));
+
+map.computeIfPresent(2, (key, value) -> null);
+// 存在key为2， 根据旧的key和value计算得到null，删除该值，输出 null
+System.out.println(map.get(2));
+```
 ## putIfAbsent
 这个方法的逻辑完全不同，注意它不是一个 get() 方法，而是 put() 方法的变种！这个方法的逻辑是，如果 Key 不存在或者对应的值是 null，则将 Value 设置进去，然后返回 null；否则只返回 Map 当中对应的值，而不做其他操作。
 put与putIfAbsent区别，put在放入数据时，如果放入数据的key已经存在与Map中，最后放入的数据会覆盖之前存在的数据，而putIfAbsent在放入数据时，如果存在重复的key，那么putIfAbsent不会放入值。

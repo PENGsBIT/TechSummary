@@ -22,6 +22,15 @@ public class MapOperaton {
 
         map.computeIfAbsent("list1", k -> new ArrayList<>()).add("A");
 
+        //*****computeIfPresent*****
+        Map<Integer, Integer> map3 = new HashMap<>();
+        map3.computeIfPresent(1, (key, value) -> (key + 1) + value);
+        // 存在key为1， 则根据旧的key和value计算新的值，输出 2a
+        System.out.println(map.get(1));
+
+        map3.computeIfPresent(2, (key, value) -> null);
+        // 存在key为2， 根据旧的key和value计算得到null，删除该值，输出 null
+        System.out.println(map.get(2));
 
         //*****putIfAbsent*****
         //这个方法的逻辑完全不同，注意它不是一个 get() 方法，而是 put() 方法的变种！这个方法的逻辑是，
