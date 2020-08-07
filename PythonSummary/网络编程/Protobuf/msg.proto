@@ -1,0 +1,8 @@
+syntax = "proto2";
+//开头是包的声明，为了帮助防止在不同的工程中命名冲突
+package ProtoBuf;
+
+
+message Hello {   
+    required string data = 1;
+}
