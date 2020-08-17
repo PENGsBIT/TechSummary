@@ -1,5 +1,5 @@
 # Learn Google.ProtoBuf summary
-(版本：python 2.7，protobuf2)
+(版本：python 2.7，protobuf2 和 protobuf3)
 ProtoBuf 所生成的二进制文件在存储效率上比 XML 高 3~10 倍，并且处理性能高 1~2 个数量级
 这是为什么选择 ProtoBuf 作为序列化方案的一个重要因素
 ## Protobuf 使用方法
@@ -54,3 +54,34 @@ message AddressBook {
 }
 ```
 
+```protobuf
+syntax = "proto3";
+package RpcMsg;
+//使用any需要把any.protobuf放入当前目录用于编译
+import "google/protobuf/any.proto";
+
+message RpcPacket{
+  //不需要关键字optional，每一个都是一个optional
+  string method = 1;
+  google.protobuf.Any args = 2;
+}
+
+message LoginInfoFromClient {
+  string name = 1;
+  string password = 2;
+}
+
+message LoginInfoFromServer {
+  int32 feedbackCode = 2;
+  string name = 3;
+  int32 hid = 4;
+}
+
+```
+
+##遇到的问题与解决方案
+1.protobuf2 在optional的序列化没有[default = HOME]的话，反序列化就不会得到相应字段  
+&ensp;-使用proto3就不会存在1的问题  
+2.protobuf3 文件中使用any泛型，编译 not found "google/protobuf/any.proto"  
+&ensp;-在官网上下载相应的protoc-x.xx.x-win64.zip，解压得到include中的[google](./google)文件，
+    放在自己需要编译的.proto文件下

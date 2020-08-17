@@ -1,0 +1,25 @@
+﻿syntax = "proto3";
+package RpcMsg;
+
+import "google/protobuf/any.proto";
+
+message RpcPacket{
+  string method = 1;
+  google.protobuf.Any args = 2;
+}
+
+message LoginInfoFromClient {
+  string name = 1;
+  string password = 2;
+}
+
+message LoginInfoFromServer {
+  int32 feedbackCode = 2;
+  string name = 3;
+  int32 hid = 4;
+}
+
+
+
+
+
