@@ -1,9 +1,9 @@
-package 多线程.一主多从多线程协作.Thread;/**
- * @program: javatest
+/**
+ * @program: TechSummary
  * @author: zpc
  * @create: 2019-08-18 20:56
  **/
-
+package 多线程.一主多从多线程协作.Thread;
 /**
  * @Author: zpc
  * @Description: 线程类，查看执行的线程是哪个线程。

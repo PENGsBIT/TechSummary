@@ -1,9 +1,9 @@
-package 多线程.一主多从多线程协作.Check;/**
- * @program: javatest
+/**
+ * @program: TechSummary
  * @author: zpc
  * @create: 2019-08-18 21:13
  **/
-
+package 多线程.一主多从多线程协作.Check;
 import 多线程.一主多从多线程协作.Service.RemotePassportService;
 
 /**

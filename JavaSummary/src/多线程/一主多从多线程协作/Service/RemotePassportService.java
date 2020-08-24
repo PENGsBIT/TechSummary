@@ -1,9 +1,9 @@
-package 多线程.一主多从多线程协作.Service;/**
- * @program: javatest
+/**
+ * @program: TechSummary
  * @author: zpc
  * @create: 2019-08-18 21:08
  **/
-
+package 多线程.一主多从多线程协作.Service;
 import java.util.Random;
 
 /**
