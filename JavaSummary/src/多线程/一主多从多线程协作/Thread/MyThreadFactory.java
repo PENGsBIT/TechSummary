@@ -1,5 +1,6 @@
-package 多线程.一主多从多线程协作.Thread;/**
- * @program: javatest
+package 多线程.一主多从多线程协作.Thread;
+/**
+ * @program: TechSummary
  * @author: zpc
  * @create: 2019-08-18 20:58
  **/
