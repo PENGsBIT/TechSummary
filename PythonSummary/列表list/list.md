@@ -2,7 +2,7 @@
 
 ## enumerate
 ```python
-for index, i in enumerate(list)
+for index, i in enumerate(列表list)
 ```
 使用 enumerate 函数 可以返回下标。
 
