@@ -76,7 +76,7 @@ Stream.of(1, 2, 3, 2, 1)
 现在可以很方便的将一个 Optional 转换成一个 Stream, 或者当一个空 Optional 时给它一个替代的。
 ```java
 Optional.of("javastack").orElseThrow();     // javastack
-Optional.of("javastack").stream().count();  // 1
+Optional.of("javastack").Stream().count();  // 1
 Optional.ofNullable(null)
     .or(() -> Optional.of("javastack"))
     .get();   // javastack

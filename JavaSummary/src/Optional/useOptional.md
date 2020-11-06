@@ -14,9 +14,9 @@
 
 ```java
 public List<User> getUsers(Collection<Integer> userIds) {
-    return userIds.stream()
+    return userIds.Stream()
             .map(this::getUserById)    // 获得 Stream<Optional<User>>
-            .flatMap(Optional::stream) // Stream 的 flatMap 方法将多个流合成一个流
+            .flatMap(Optional::Stream) // Stream 的 flatMap 方法将多个流合成一个流
             .collect(Collectors.toList());
 }
 ```
