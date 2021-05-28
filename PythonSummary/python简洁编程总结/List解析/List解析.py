@@ -11,6 +11,13 @@
 """
 
 if __name__ == '__main__':
+    newList = []  # 先定义一个空列表
+    for i in range(11):
+        newList.append(i * 2)  # 将每个元素都乘以2
+    print(newList)
+    # 列表解析式：
+    print([i * 2 for i in range(11)])
+
     project_name = '1'
     data_list = []
     all_data = None
