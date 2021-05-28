@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c6a941ab-c2cd-4b10-b358-17c8a903986e" name="Default Changelist" comment="Python内存管理和垃圾回收机制">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++Summary/虚继承/虚继承.md" beforeDir="false" afterPath="$PROJECT_DIR$/C++Summary/虚继承/虚继承.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="JupyterTrust" id="f3b26d4d-bf29-459a-ae38-41b7789c8d58" />
+  <component name="ProjectId" id="1flPuiSS6NfRqcOBbekEARAdMZm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Code\TechSummary\PythonSummary" />
+      <recent name="E:\Code\TechSummary\JavaSummary\src" />
+      <recent name="E:\Code\TechSummary\PythonSummary\imgs" />
+      <recent name="E:\Code\TechSummary\PythonSummary\网络编程\Protobuf" />
+      <recent name="C:\Users\zhoupengcheng03\Desktop\TechSummary\PythonSummary\网络编程\Protobuf" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Code\TechSummary\PythonSummary\imgs" />
+      <recent name="C:\Users\zhoupengcheng03\Desktop\TechSummary\PythonSummary\网络编程\Protobuf" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6a941ab-c2cd-4b10-b358-17c8a903986e" name="Default Changelist" comment="" />
+      <created>1596789933246</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596789933246</updated>
+      <workItem from="1602576168322" duration="137000" />
+    </task>
+    <task id="LOCAL-00001" summary="learn and summary ProtoBuf">
+      <created>1596795859503</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596795859504</updated>
+    </task>
+    <task id="LOCAL-00002" summary="learn and summary ProtoBuf3">
+      <created>1597632699206</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597632699206</updated>
+    </task>
+    <task id="LOCAL-00003" summary="learn and summary ProtoBuf">
+      <created>1598236969344</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598236969344</updated>
+    </task>
+    <task id="LOCAL-00004" summary="learn 一主多从的线程协作">
+      <created>1598251972643</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598251972643</updated>
+    </task>
+    <task id="LOCAL-00005" summary="learn 一主多从的线程协作">
+      <created>1598252126020</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598252126020</updated>
+    </task>
+    <task id="LOCAL-00006" summary="learn 一主多从的线程协作">
+      <created>1598252365593</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598252365593</updated>
+    </task>
+    <task id="LOCAL-00007" summary="learn 一主多从的线程协作">
+      <created>1598252581799</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598252581799</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Python内存管理和垃圾回收机制">
+      <created>1602576233880</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602576233880</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="learn and summary ProtoBuf3" />
+    <MESSAGE value="learn and summary ProtoBuf" />
+    <MESSAGE value="learn 一主多从的线程协作" />
+    <MESSAGE value="Python内存管理和垃圾回收机制" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python内存管理和垃圾回收机制" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="810" y="162" key="RollbackChangesDialog" timestamp="1622184979355">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="810" y="162" key="RollbackChangesDialog/0.0.1920.1050/1920.3.1920.1050@0.0.1920.1050" timestamp="1622184979355" />
+    <state x="752" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622172207699">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="752" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/1920.3.1920.1050@0.0.1920.1050" timestamp="1622172207699" />
+  </component>
+</project>
