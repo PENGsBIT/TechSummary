@@ -29,7 +29,7 @@ entries =  [[-9092791511155847987, 'timmy', 'red'],
  
 indices数组中的整数，会按照数组的大小使用变长整数(int8、int16、int32、int64)表示。
 当dict元素数量 > 容量的2/3，就会发生扩容。 详见CPython的dictresize()函数。
-dict的容量(即len(indices ))规则：2^n（2的指数倍）。选这个规则，[原因之一](Python3%20dict优化.py)：根据容量大小计算出mask值的bit位末尾都是1，这样在计算key的hash值，计算放在哪个slot(槽位)，可以直接用与运算，而非取模运算，可以加快速度。
+dict的容量(即len(indices ))规则：2^n（2的指数倍）。选这个规则，[原因之一](Python3 dict优化.py)：根据容量大小计算出mask值的bit位末尾都是1，这样在计算key的hash值，计算放在哪个slot(槽位)，可以直接用与运算，而非取模运算，可以加快速度。
 entries 的大小(即len(entries))规则：2/3的dict容量，即len(entries ) == 2/3*len(indices)。
 总结起来，新dict节省内存的原因：
 

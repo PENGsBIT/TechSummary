@@ -15,22 +15,17 @@
 #
 # 从第三次测试来看，a 模块中引用了 b 模块。
 import sys
-from a import b
 
 print "a.b" in sys.modules
 # True
 
 
 sys.modules.pop("a.b")
-from a import b
 print "a.b" in sys.modules
 # False
 
-import a.b  # *** 这里发生了改动 ****
 print "a.b" in sys.modules
 # True
 
-import a
-
-print a.b
+print 游戏设计.Reload热更新.a.b
 # <module 'a.b' from 'a\b.py'>

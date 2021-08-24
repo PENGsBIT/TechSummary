@@ -1,7 +1,7 @@
 # python import的一些机制
 
 ## import
-示例见[import机制](./import机制.py)
+示例见[import机制](import机制.py)
 从 sys.modules 中 pop 掉 "a.b"，再次import，
 竟然没有再次放入 sys.modules。也没有报任何异常，一切看起来都是OK的。
 但“a.b"并没有再次转载入sys中  
@@ -25,7 +25,7 @@ Python在执行 import 加载模块时，对上述2种情况中的module，都�
 （参见 Import.c (line 2273) : import_module_level(..)函数中调用 ensure_fromlist）（参见 Import.c (line 2597) : ensure_fromlist 中从刚加载的module中判断是否存在）。
 
 ### 重点在上面例子中的第二个import：
-[import机制](./import机制.py)
+[import机制](import机制.py)
 ```
 sys.modules.pop("a.b")
 from a import b
