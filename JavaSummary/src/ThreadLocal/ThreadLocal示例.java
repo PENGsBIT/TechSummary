@@ -9,7 +9,7 @@ package ThreadLocal;
  * @Create: 2022-02-14 11:50
  **/
 
-public class ThreadLocal {
+public class ThreadLocal示例 {
 
     /**
      * 运行入口
