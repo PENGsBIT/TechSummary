@@ -1,6 +1,6 @@
 package 设计模式DesignPatterns.proxy;
 
-import org.junit.Test;
+//import org.junit.Test;
 
 /**
  * @program: TechSummary
@@ -16,7 +16,7 @@ public class ProxyTest {
         String result =  p.execute();
         System.out.println(result);
     }
-    @Test
+//    @Test
     public void testDynamicProxy (){
         Target target = new TargetImpl();
         //输出目标对象信息

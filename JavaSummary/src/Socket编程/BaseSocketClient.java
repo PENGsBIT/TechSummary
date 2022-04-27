@@ -1,6 +1,8 @@
 package Socket编程;
 
-import org.apache.poi.util.IOUtils;
+//import org.apache.poi.util.IOUtils;
+
+//import jdk.internal.module.ModuleInfoExtender;
 
 import java.io.*;
 
@@ -21,6 +23,7 @@ public class BaseSocketClient {
 
     private InputStream inputStream;
     private static final int MAX_BUFFER_SIZE = 1024;
+
 
     public BaseSocketClient(String host, int port) {
         this.serverHost = host;
@@ -56,8 +59,8 @@ public class BaseSocketClient {
 
         DataInputStream in = new DataInputStream(inputStream);
         System.out.println("服务器响应： " + in.readUTF());
-        String receipt = IOUtils.toByteArray(inputStream).toString();
-        System.out.println("got receipt: " + receipt);
+//        String receipt = IOUtils.toByteArray(inputStream).toString();
+//        System.out.println("got receipt: " + receipt);
         this.inputStream.close();
         this.socket.close();
         //注意这里我们在服务端接受到消息以及客户端发送消息后，分别调用了shutdownInput()和shutdownOutput()而不是直接close对应的stream，这是因为在关闭任何一个stream，都会直接导致socket的关闭，也就无法进行后面回执的发送了。
